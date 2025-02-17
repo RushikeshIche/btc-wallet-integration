@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+:root {
+  --primary-color: #E9983D;
+}
+
+body{
+  font-family:"Inter","Work Sans", monospace;
+}
