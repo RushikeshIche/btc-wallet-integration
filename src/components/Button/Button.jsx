@@ -1,13 +1,18 @@
-import { useState } from "react";
 import "./Button.css";
-
+import {
+  UnisatIcon,
+  LeatherIcon,
+  MagicEdenIcon,
+  OKXIcon,
+  XverseIcon,
+} from "../../assets/asset";
 const LogoDisplay = ({ name }) => {
   const logos = {
-    Unisat: `/unisat.svg`,
-    Leather: `/leather.svg`,
-    "Magic Eden": `/magiceden.svg`,
-    OKX: `/okx.svg`,
-    Xverse: `/xverse.svg`,
+    Unisat: UnisatIcon,
+    Leather: LeatherIcon,
+    "Magic Eden": MagicEdenIcon,
+    OKX: OKXIcon,
+    Xverse: XverseIcon,
   };
 
   return (
