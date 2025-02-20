@@ -5,7 +5,7 @@ import Button from "../Button/Button";
 import { LaserEyesProvider } from "@omnisat/lasereyes";
 import ConnectWallet from "../ConnectWallet/ConnectWallet";
 
-export const Popup = ({ text, closePopup }) => {
+export const Popup = ({ text, closePopup, setIsConnected, setOpen }) => {
   const [expanded, setExpanded] = useState(false);
 
   return (
@@ -32,13 +32,8 @@ export const Popup = ({ text, closePopup }) => {
         <div>
           <h1 className="text-center text-white">{text}</h1>
         </div>
-        <LaserEyesProvider
-          config={{
-            network: "mainnet",
-          }}
-        >
-          <ConnectWallet />
-        </LaserEyesProvider>
+
+        <ConnectWallet setIsConnected={setIsConnected} setOpen={setOpen} />
 
         <div className="mt-8">
           <p

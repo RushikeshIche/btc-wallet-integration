@@ -1,4 +1,4 @@
-# BTC Wallet Integration 
+# BTC Wallet Integration
 
 ## Overview
 
@@ -6,25 +6,25 @@ This repository provides an easy-to-use template for integrating Bitcoin wallets
 
 ## Features
 
-* Uses lasereyes by Omnisat for wallet integration.
+- Uses lasereyes by Omnisat for wallet integration.
 
-* Provides a ready-to-use template for connecting BTC wallets.
+- Provides a ready-to-use template for connecting BTC wallets.
 
-* Simplifies Bitcoin wallet management in applications.
+- Simplifies Bitcoin wallet management in applications.
 
-* Easily customizable for different use cases.
+- Easily customizable for different use cases.
 
-* Getting Started
+- Getting Started
 
 ## Prerequisites
 
 ### Ensure you have the following installed before proceeding:
 
-* Node.js (latest LTS recommended)
+- Node.js (latest LTS recommended)
 
-* NPM or Yarn
+- NPM or Yarn
 
-* Bitcoin wallet software supporting lasereyes
+- Bitcoin wallet software supporting lasereyes
 
 ## Installation
 
@@ -37,11 +37,11 @@ cd btc-wallet-integration
 
 ### Install dependencies:
 
-``` npm install ```
+`npm install`
 
 or
 
-```yarn install```
+`yarn install`
 
 ## Usage
 
@@ -52,4 +52,3 @@ or
 ## Configuration
 
 Modify configurations in the provided template to suit your application’s needs. Refer to the lasereyes documentation for advanced options.
-
